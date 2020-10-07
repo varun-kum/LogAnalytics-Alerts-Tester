@@ -1,0 +1,35 @@
+{
+  "contentVersion": "3.0.0",
+  "alerts": [
+    {
+      "alertName": "SECURITY.Administrative activities on Keyvault",
+      "description": "List administrative activities on key vault",
+      "severity": 3,
+      "alertSeverity": "SEV B",
+      "query": "AzureMetrics | where TimeGenerated >= datetime({0}) and TimeGenerated <= datetime({1})| project TimeGenerated ",
+      "searchCategory": "Security",
+      "source": "LogAnalytics",
+      "sourceInstance": "",
+      "suppressionBehavior": 4,
+      "StartDate": "2020-04-15T00:00:00.321-10:00",
+      "EndDate": "2020-04-16T00:00:00.321-10:00",
+      "Interval": 60,
+      "Window": 15
+    },
+    {
+      "alertName": "SECURITY.Antimalware detection",
+      "description": "One or more VMs reported threats by the Antimalware agent",
+      "severity": 3,
+      "alertSeverity": "SEV B",
+      "query": "AzureMetrics | where TimeGenerated >= datetime({0}) and TimeGenerated <= datetime({1})| project TimeGenerated ",
+      "searchCategory": "Security",
+      "source": "LogAnalytics",
+      "sourceInstance": "",
+      "suppressionBehavior": 4,
+      "StartDate": "2020-04-15T00:00:00.321-10:00",
+      "EndDate": "2020-04-16T00:00:00.321-10:00",
+      "Interval": 240,
+      "Window": 15
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.Interfaces", "Tester.Interfaces\AlertTester.Interfaces.csproj", "{8C6789C7-7B1F-4D36-9C2F-3122D0508DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.DTO", "Tester.DTO\AlertTester.DTO.csproj", "{52DCD06A-333D-4B6C-A8FA-B97A0C92CF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.Process", "Tester.Process\AlertTester.Process.csproj", "{1E96D55E-07F1-40E7-BCAB-3D75525349D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.WinForm (Not Updated)", "Loganalytics Tester\AlertTester.WinForm (Not Updated).csproj", "{46B5CFE5-7ABD-4432-8627-14FF63677880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.Console", "AlertTester.Console\AlertTester.Console.csproj", "{B2A4DBF8-10B0-4DA9-BE10-7D707CE54672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertTester.Telemetry", "AlertTester.Telemetry\AlertTester.Telemetry.csproj", "{44801D97-E3C2-4513-94C9-1F492EFA6DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C6789C7-7B1F-4D36-9C2F-3122D0508DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6789C7-7B1F-4D36-9C2F-3122D0508DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6789C7-7B1F-4D36-9C2F-3122D0508DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6789C7-7B1F-4D36-9C2F-3122D0508DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DCD06A-333D-4B6C-A8FA-B97A0C92CF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DCD06A-333D-4B6C-A8FA-B97A0C92CF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DCD06A-333D-4B6C-A8FA-B97A0C92CF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DCD06A-333D-4B6C-A8FA-B97A0C92CF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E96D55E-07F1-40E7-BCAB-3D75525349D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E96D55E-07F1-40E7-BCAB-3D75525349D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E96D55E-07F1-40E7-BCAB-3D75525349D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E96D55E-07F1-40E7-BCAB-3D75525349D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B5CFE5-7ABD-4432-8627-14FF63677880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B5CFE5-7ABD-4432-8627-14FF63677880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B5CFE5-7ABD-4432-8627-14FF63677880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B5CFE5-7ABD-4432-8627-14FF63677880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A4DBF8-10B0-4DA9-BE10-7D707CE54672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A4DBF8-10B0-4DA9-BE10-7D707CE54672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A4DBF8-10B0-4DA9-BE10-7D707CE54672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A4DBF8-10B0-4DA9-BE10-7D707CE54672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44801D97-E3C2-4513-94C9-1F492EFA6DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44801D97-E3C2-4513-94C9-1F492EFA6DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44801D97-E3C2-4513-94C9-1F492EFA6DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44801D97-E3C2-4513-94C9-1F492EFA6DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C39A93-D42F-4E19-8B83-FA98B55060D5}
+	EndGlobalSection
+EndGlobal
